@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup - acciojob</title>
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="signup-container">
+        <h1>Signup</h1>
+        <form id="signupForm">
+            <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="text" id="dob" placeholder="dd-mm-yyyy" required>
+            </div>
+
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="role" value="student" required>
+                    Student
+                </label>
+                <label>
+                    <input type="radio" name="role" value="employee">
+                    Employee
+                </label>
+            </div>
+
+            <div class="terms">
+                <input type="checkbox" id="terms" required>
+                <label for="terms">I agree to all the Terms and conditions</label>
+            </div>
+
+            <button type="submit">Signup</button>
+        </form>
+
+        <div class="login-link">
+            Already have an account? <a href="#">Login here</a>
+        </div>
+    </div>
+
+    <link rel="stylesheet" href="index.js">
+</body>
+</html>
